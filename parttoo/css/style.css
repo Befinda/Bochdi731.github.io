@@ -545,6 +545,9 @@ hr.bocharov, hr.pushkova, hr.platonov, hr.galkina, hr.provorov {
 	border-style: solid 10px;
  background-color: #4a4a4a;
 }
+.vstupit {
+	margin-left: 15px;
+	margin-right: 15px;
 .vstupit span strong  {
 	display: block;
 	text-align: center;
@@ -569,7 +572,9 @@ p.why, p.what {
 	font-weight: bold;
 	font-size: 35px;
 }
-
+.appeal {
+	margin-left: 15px;
+	margin-right: 15px;
 .appeal span strong {
 		display: block;
 	text-align: left;

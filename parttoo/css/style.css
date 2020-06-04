@@ -1,0 +1,674 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	margin: 0 auto;
+	width: 1170px;
+	height: 900px;
+	background-image: url("../img/fon.jpg");
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 70%;
+}	
+.header{
+	height: 300px;
+}
+.logotipe {
+	margin-top: 25px;
+	float: left;	
+	margin-left: 25px;	
+}
+.header h1 {
+	margin-top: 45px;
+	margin-left: 150px;
+	font-size: 30px;
+	font-family: "Gotham Pro";
+	font-style: normal;
+	text-transform: uppercase;
+	display: inline-block;
+}
+.header h2 {
+	margin-left: 250px;
+ font-size: 30px;
+ font-family: "Gotham Pro";
+ color: #000000;
+}
+ul{
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+ul li{
+	margin: 20px;
+	list-style: none;
+}
+
+
+.kontakt {
+ margin-left: -60px;
+ margin-top: 10px;
+}
+.insta {
+	margin-top: -10px;
+ text-align: left;
+}
+.klass {
+	margin-top: 5px;
+	text-align: left;
+}
+hr {
+	height: 6px;
+	border-color: rgb(252, 249, 249);
+	border-style: solid 5px;
+ background-color: rgb(251, 7, 18)
+}
+button {
+/*	margin: 10px;
+	/*position: relative;*/
+/*	display: block;*/
+/*	margin-left: 50px;
+	margin-top: 10px;*/
+	/*border-width: 5px;*/
+	border-style: solid;
+	border-radius: 35px;
+	width: 300px;
+	height: 70px;
+	text-align: center;
+	font-family: "Gotham pro"
+	font: lighter;
+	font-size: 30px;
+	cursor: pointer;
+	color: #fb0712;
+}
+
+a {
+	margin: 0;
+	margin-top: 10px;
+ width: 300px;
+	height: 70px;
+}
+.line, .line1 {
+	margin-top: 150px;
+ height: 5px;
+	border-color: rgb(252, 249, 249);
+	border-style: solid 1px;
+ background-color: rgb(251, 7, 18)
+}
+
+/*навигационная строка*/
+.menu ul {
+	list-style-type: none;
+ margin: 0;
+ padding: 0;
+ /*overflow: hidden;*/
+ background-color: #333;
+ border-radius: 40px;
+}
+.menu li {
+	float: left;
+}
+.menu ul li a {
+ color: white;
+ text-align: center;
+ padding: 10px 30px;
+ text-decoration: none;
+ font-family: "Gotham Pro";
+ font: Light;
+ font-size: 25px;
+}
+
+/*.fotorama {
+	display: block;
+	left: center;
+	position: relative;
+	margin-top: 160px;
+}*/
+.line {
+ margin: 0;
+}
+.content {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.content-text {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.content h1 {
+	margin-top: 25px;
+	display: block;
+	text-align: left;
+	font-size: 35px;
+	font-family: "Gotham Pro";
+	font: bold;
+}
+.content h2, h3, h4, img {
+	margin-top: 20px;
+	font-size: 25px;
+	font-family: "Gotham Pro";
+	font: Light;
+	color: #d80b0b;
+}
+.leftimg {
+	float: left;
+	margin: 5px 5px 5px 3px;
+}
+.content p {
+	margin-top: 10px;
+ font-size: 20px;
+}
+.leftimg {
+	float: left;
+	margin: 5px 5px 5px 3px;
+}
+.content hr {
+	margin-top: 80px;
+	color: #d80b0b;
+}
+address {
+	text-align: right;
+}
+
+.kanal img {
+/*	float: left;*/
+margin-top: 20px;
+border-radius: 70px;
+}
+.nadezda img {
+/*	float: right;*/
+/*	margin-right: 15px;*/
+	border-radius: 75px;
+	top: 20px;
+}
+.nadezda {
+	float: right;
+}
+.kanal p {
+	margin-top: 15px;
+	font-size: 30px;
+	font-family: Gotham Pro;
+	font-weight: bold; 
+	text-transform: uppercase;
+	text-align: center;
+	color: #4a4a4a;
+}
+.footer {
+	background-color: #4a4a4a;
+	width: 1170px;
+	height: 355px;
+	position: absolute;
+ margin-top: 50px;
+ margin-left: 0;
+}
+.acsses, .acsses-kontakt, .acsses-str, .acsses-part, .acsses-vstupit, .acsses-document {
+	border-top: 1px solid red;
+	display: block;
+	font-family: Gotham Pro;
+	font: Regular 
+ font-size: 13px;
+ border: none;
+ margin: 25px 0;
+ padding: 0;
+}
+.footer-nav, .footer-nav-kontakt, .footer-nav-str, .footer-nav-part, .footer-nav-vstupit, .footer-nav-document {
+	display: block;
+	float: left;
+/*	width: 184px;*/
+	margin: 32px 8px 32px 8px;
+	border: none;
+/*	margin: 0;*/
+ padding: 0;
+ font-family: Gotham Pro, Regular;
+ font-size: 13px;
+/* direction: ltr;*/
+}	
+.footer-nav h5, .footer-nav-kontakt h5, .footer-nav-str h5, .footer-nav-part h5, .footer-nav-vstupit h5, .footer-nav-document h5 {
+ color: #ffffff;
+	font-size: 35px;
+ margin-bottom: 5px;
+ padding-bottom: 5px;
+ border-bottom: thin solid #e1e1e1;
+/* border: none;*/
+ margin: 0 25px 0 20px;
+ padding: 0;
+ display: block;
+ font-weight: bold;
+/* direction: ltr;*/
+}
+.footer ul, .footer-kontakt ul, .footer-str ul, .footer-part ul, .footer-vstupit ul, .footer-document ul {
+ border: none;
+/* margin: 0 25px 0 15px;*/
+ padding: 0;
+ display: block;
+ list-style-type: disc;
+ /*font-family: Gotam Pro;*/
+ font-weight: bold;
+ font-size: 20px;
+/* direction: ltr;*/
+}
+.footer li, .footer-kontakt li, .footer-str li, .footer-part li, .footer-vstupit li, .footer-document li {
+ list-style: none;
+ border: none;
+/* margin: 0 25px 0 15px;*/
+ padding: 0;
+ display: list-item;
+ text-align: -webkit-;
+ font-family: Gotam Pro;
+ font-weight: bold;
+ font-size: 20px;
+/* direction: ltr;*/
+}
+.footer-nav ul li a, .footer-nav-kontakt ul li a, .footer-nav-str ul li a, .footer-nav-part ul li a, .footer-nav-vstupit ul li a, .footer-nav-document ul li a {
+/*	text-decoration: underline;*/
+	list-style: none;
+	color: #ffffff;
+}
+.footer-kontakt {
+	background-color: #4a4a4a;
+	width: 1170px;
+	height: 355px;
+	position: absolute;
+ margin-top: 730px;
+ margin-left: 0px;
+}
+.footer-part {
+		background-color: #4a4a4a;
+	width: 1170px;
+	height: 350px;
+	position: absolute;
+ margin-top: 0px;
+ margin-left: 0px;
+}
+.footer-str {
+ background-color: #4a4a4a;
+	width: 1170px;
+	height: 355px;
+	position: absolute;
+ margin-top: 350px;
+ margin-left: 0px;
+}
+.footer-vstupit {
+	background-color: #4a4a4a;
+	width: 1170px;
+	height: 355px;
+	position: absolute;
+ margin-top: 180px;
+ margin-left: 0px;
+}
+.footer-document {
+		background-color: #4a4a4a;
+	width: 1170px;
+	height: 360px;
+	position: absolute;
+ margin-top: 35px;
+ margin-left: 0px;
+}
+iframe {
+	margin-top: 50px;
+}	
+.adress {
+	margin: 450px  5px;
+	float: left;
+	border: 10px;
+	font-family: Gotham Pro;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+.pochta li a  {
+height: 400px;
+}
+.page-content {
+	display: block;
+	margin: 16px 16px 20px 16px;
+	width: 1100px;
+	border-spacing: 0;
+	/*text-align: center;*/
+	font-family: Gotham Pro;
+	font-weight: lighter; 	 
+}
+h1.title  {
+	color: #d80b0b;
+	font-size: 30px;
+ font-family: Gotham Pro;
+ font-weight: bold;
+ /*line-height: 21px;*/
+ margin-bottom: 10px;
+}
+h1 {
+	display: block;
+ }
+.content-text {
+ display: block;
+ font-size: 20px;
+}
+.content-text p {
+	display: block;
+	color: black;
+ font-family: Gotham Pro;
+ margin-bottom: 25px;
+ line-height: 20px;
+}
+p.priziv {
+	text-align: center;
+}
+p.date {
+	margin: 25px 0 25px 0;
+}
+.content-text p {
+	font-family: Gotham Pro;
+	font-weight: normal;
+	line-height: 30px;
+	color: #010101;
+}
+.news-text img {
+	margin: 20px 20px 20px 75px;
+}
+h1.news-title {
+	text-transform: uppercase;
+	font-family: Gotham Pro;
+	margin-top: 25px;
+	margin-left: 15px;
+}
+p.pobeda {
+	font-family: Gotham Pro;
+	margin-top: 15px;
+	font-size: 25px;
+}
+p.status {
+	font-family: Gotham Pro;
+	font-size: 20px;
+	line-height: 25px;
+	color: #010101;
+}
+p.mai {
+	font-family: Gotham Pro;
+	margin-top: 15px;
+	font-size: 25px;
+}
+img.blago {
+	margin-left: 350px;
+	transition:width 0.5s ease;
+}
+p.sssr {
+ font-family: Gotham Pro;
+	margin-top: 15px;
+	font-size: 25px;	
+}
+p.pioner {
+	font-family: Gotham Pro;
+	margin-top: 15px;
+	font-size: 25px;	
+}
+.news-text p {
+	color: #010101; 
+	display: block;
+	margin: 16px 16px 20px 16px;
+	width: 1100px;
+	border-spacing: 0;
+	/*text-align: center;*/
+	font-family: Gotham Pro;
+	font: Regular;
+	font-size: 20px;
+	line-height: 25px;
+}
+.mmo p {
+	text-align: center;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-family: Gotham Pro;
+	font: bold;
+	font-size: 40px;	
+}
+p.persek {
+float: left;
+margin-top: 25px;
+margin-left: 10px;
+font-family: Gotham Pro;
+font-size: 30px;
+}
+p.buro {
+	display: block;
+	text-align: center;
+ position: absolute;
+	margin-left: 280px;
+	margin-top: 300px;
+	text-transform: uppercase;
+	font-family: Gotham Pro;
+	/*font: bold; */
+	font-size: 20px; 
+}
+.people {
+	float: left;
+	margin-left: 10px;
+	margin-top: 130px;
+	font-family: Gotham Pro;
+	font-size: 20px;
+	color: #010101;
+	line-height: 35px;
+	padding-bottom:20px; /*отступ снизу*/
+width: 100%; /*указываем общую ширину блока с колонками*/
+text-align:justify; /*выравнивание текста внутри колонок*/
+column-count: 2; /*количество колонок, на которое хотим разбить текст*/
+-moz-column-count: 2; /*для мозилы*/
+-webkit-column-count: 2; /*для webkit браузеров*/
+column-gap: 0px; /*отступ между колонками*/
+-moz-column-gap: 0px;
+-webkit-column-gap: 200px;
+ column-rule: 1px solid #000;/*если требуется по дизайну, разделяем колонки линией*/
+-moz-column-rule: 1px solid #000;
+-webkit-column-rule: 1px solid #000;
+}*/
+.peopletwo p {
+ text-align: center;
+	margin-top: 130px;
+	font-family: Gotham Pro;
+	font-size: 20px;
+	color: #010101;
+	line-height: 35px;
+}
+.structura hr {
+	margin-top: 500px;
+}
+.otdeli {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.otdeli p{
+	margin-top: 15px;
+	text-align: center;
+	font-family: Gotham Pro;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.pervichki p {
+	float: left;
+}
+hr.per {
+	margin-top: 170px;
+}
+.nardep, .raion {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.dep p {
+	text-align: center;
+	margin-top: 15px;
+	font-family: Gotham Pro;
+	font-size: 20px;
+}
+.nardep p {
+	margin-top: 10px;
+	font-family: Gotham Pro;
+	font-size: 25px;
+}
+.details  {
+	display: block;
+	float: left;
+ display: none;
+ text-align: left;
+ margin-top: 10px;
+float: left;
+margin: 5px 0;
+padding: 5px;
+border: 1px solid #CDC9C9;
+font-size: 13px;
+background-color: #F7F7F7;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.deputaty-details p {
+/*text-align: left;*/
+}
+p.bocharov, p.galkina, p.provorov, p.pushkova, p.platonov, p.bochkov {
+	font-family: Gotham Pro;
+	font-weight: bold;
+	color: #d80b0b;
+}
+hr.str {
+	margin-top: 45px;
+}
+.raion p {
+	margin-top: 10px;
+text-align: left;
+font-family: Gotham Pro;
+font-size: 20px;
+
+}
+hr.bocharov, hr.pushkova, hr.platonov, hr.galkina, hr.provorov {
+	margin-top: 10px;
+	border-color: rgb(252, 249, 249);
+	border-style: solid 10px;
+ background-color: #4a4a4a;
+}
+.vstupit span strong  {
+	display: block;
+	text-align: center;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-family: Gotham Pro;
+	font-size: 35px;
+}
+.vstupit p  {
+	text-indent: 30px;
+	font-family: Gotham Pro;
+	margin-top: 15px;
+	font-size: 20px;
+	line-height: 30px;
+}
+p.why, p.what {
+		display: block;
+	text-align: center;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-family: Gotham Pro;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.appeal span strong {
+		display: block;
+	text-align: left;
+	margin-top: 50px;
+	text-transform: uppercase;
+	font-family: Gotham Pro;
+	font-size: 25px;
+}
+.glavnaya {
+		margin-top: 30px;
+}
+.glavnaya a {
+	margin-left: 20px;
+	margin-top: 100px;
+}
+.pervaia {
+	margin-top: 30px
+}
+.glavnaya wbr { 
+	margin-left: 20px;
+	margin-top: 100px;
+}
+.ustav {
+		font-family: Gotham Pro;
+	font-weight: normal;
+margin-top: 30px;
+text-align: right;
+margin-right: 40px;
+}
+.izm {
+	margin-top: 100px;
+}
+.osnova {
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 25px;
+	font-family: Gotham Pro;
+	font-weight: normal;
+	line-height: 27px;
+	font-size: 18px;
+}
+p.post {
+	text-align: left;
+	margin-top: 80px;
+/*	text-transform: uppercase;*/
+	font-size: 15px;
+}
+.programma {
+	font-family: Gotham Pro;
+ margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 35px;
+}
+h1.zag {
+	font-family: Gotham Pro;
+	color: #d80b0b;
+	margin-bottom: 15px;
+}
+.text img {
+	margin-top: 0;
+	float: right;
+	margin-left: 10px;
+}
+.text p {
+	font-weight: normal;
+	line-height: 27px;
+	font-size: 18px;
+}
+.punkt {
+	margin-top: 50px;
+}
+p.punkt {
+	text-align: center;
+}
+a.zayava {
+	/*display: inline-block;*/
+	margin-top: 15px;
+	margin-left: 15px;
+	text-transform: uppercase;
+	font-family: Gotham Pro;
+	color: red;
+}
+a.anketa {
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 15px;
+		text-transform: uppercase;
+	font-family: Gotham Pro;
+	color: red;
+
+
+}
+
+
+
+
+
+
+
+
+
+

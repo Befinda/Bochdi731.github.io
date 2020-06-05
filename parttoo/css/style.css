@@ -12,7 +12,7 @@
 	background-repeat: no-repeat;
 	background-size: 70%;
 }	
-.header{
+.header {
 	height: 300px;
 }
 .logotipe {
@@ -35,13 +35,13 @@
  font-family: "Gotham Pro";
  color: #000000;
 }
-ul{
+ul {
 	margin-top: 25px;
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 }
-ul li{
+ul li {
 	margin: 20px;
 	list-style: none;
 }
@@ -461,7 +461,7 @@ column-gap: 0px; /*отступ между колонками*/
  column-rule: 1px solid #000;/*если требуется по дизайну, разделяем колонки линией*/
 -moz-column-rule: 1px solid #000;
 -webkit-column-rule: 1px solid #000;
-}*/
+}
 .peopletwo p {
  text-align: center;
 	margin-top: 130px;
@@ -477,7 +477,7 @@ column-gap: 0px; /*отступ между колонками*/
 	margin-left: 15px;
 	margin-right: 15px;
 }
-.otdeli p{
+.otdeli p {
 	margin-top: 15px;
 	text-align: center;
 	font-family: Gotham Pro;
@@ -548,6 +548,7 @@ hr.bocharov, hr.pushkova, hr.platonov, hr.galkina, hr.provorov {
 .vstupit {
 	margin-left: 15px;
 	margin-right: 15px;
+}
 .vstupit span strong  {
 	display: block;
 	text-align: center;
@@ -575,6 +576,7 @@ p.why, p.what {
 .appeal {
 	margin-left: 15px;
 	margin-right: 15px;
+}
 .appeal span strong {
 		display: block;
 	text-align: left;
@@ -664,8 +666,6 @@ a.anketa {
 		text-transform: uppercase;
 	font-family: Gotham Pro;
 	color: red;
-
-
 }
 
 

@@ -489,6 +489,7 @@ column-gap: 0px; /*отступ между колонками*/
 text-align: left;
 }
 .pervichki p {
+text-align: left;
 	float: left;
 }
 hr.per {

@@ -462,14 +462,14 @@ column-gap: 0px; /*отступ между колонками*/
 -moz-column-rule: 1px solid #000;
 -webkit-column-rule: 1px solid #000;
 }
-.peopletwo p {
+/* .peopletwo p {
  text-align: center;
 	margin-top: 130px;
 	font-family: Gotham Pro;
 	font-size: 20px;
 	color: #010101;
 	line-height: 35px;
-}
+} */
 .structura hr {
 	margin-top: 500px;
 }

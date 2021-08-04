@@ -77,7 +77,7 @@ button {
 	width: 300px;
 	height: 70px;
 	text-align: center;
-	font-family: "Gotham pro"
+	font-family: "Gotham pro";
 	font: lighter;
 	font-size: 30px;
 	cursor: pointer;
@@ -208,7 +208,7 @@ border-radius: 70px;
 	border-top: 1px solid red;
 	display: block;
 	font-family: Gotham Pro;
-	font: Regular 
+	font: Regular ;
  font-size: 13px;
  border: none;
  margin: 25px 0;

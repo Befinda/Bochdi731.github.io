@@ -46,13 +46,17 @@ ul {
 	justify-content: center;
 	flex-direction: row;
 }
-ul li {
-	margin: 20px;
+.logon li {
+	margin-right: -20px;
 	list-style: none;
+
+}
+.logon li img{
+	height: 100px;
 }
 
 
-.kontakt {
+/*.kontakt {
  margin-left: -60px;
  margin-top: 10px;
 }
@@ -63,7 +67,7 @@ ul li {
 .klass {
 	margin-top: 5px;
 	text-align: left;
-}
+}*/
 hr {
 	height: 6px;
 	border-color: rgb(252, 249, 249);

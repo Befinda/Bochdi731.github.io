@@ -88,7 +88,7 @@ button {
 }
 /*Конец заголовка*/
 
-.line, .line1 {
+.line {
 	margin-top: 150px;
  height: 5px;
 	border-color: rgb(252, 249, 249);

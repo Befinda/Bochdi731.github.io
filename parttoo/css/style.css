@@ -91,7 +91,7 @@ button {
 
 /*навигационная строка*/
 .menu ul {
-	padding: 1%;
+	padding: 0 1%;
  	background-color: #333;
  	border-radius: 40px;
 	 justify-content:space-around;
@@ -101,6 +101,14 @@ button {
  color: white;
  font-family: "Gotham Pro";
  font-size: 25px;
+}
+.menu li{
+	
+	padding: 1% 10px;
+}
+.menu .check{
+	background-color: #d80b0b;
+
 }
 /*Конец навигационной строки*/
 /*.fotorama {

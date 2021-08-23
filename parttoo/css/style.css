@@ -3,10 +3,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	background: linear-gradient(white 300px, lightgray 500px);
+	background-color: lightgray;
+}
 .container {
 	margin: 0 auto;
 	width: 1170px;
-	height: 900px;
+
+	background-color: white;
 }	
 a {
 	text-decoration: none;

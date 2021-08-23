@@ -82,7 +82,7 @@ button {
 	color: #fb0712;
 	background-color: rgb(255, 255, 255);
 }
-.vstupit{
+.vstbtn{
 	flex-basis: 40%;
 	text-align: center;
 	flex-wrap: wrap;
@@ -210,54 +210,36 @@ border-radius: 70px;
 }
 .footer {
 	background-color: #4a4a4a;
-	/*width: 1170px;*/
 	height: 300px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	margin-top: 30px;
-	/*position: absolute;
- margin-top: 50px;
- margin-left: 0;*/
 }
-.acsses, .acsses-kontakt, .acsses-str, .acsses-part, .acsses-vstupit, .acsses-document {
-	border-top: 1px solid red;
-	display: block;
-	font-family: Gotham Pro;
-	font: Regular ;
- font-size: 13px;
- border: none;
- margin: 25px 0;
- padding: 0;
-}
-.footer-nav, .footer-nav-kontakt, .footer-nav-str, .footer-nav-part, .footer-nav-vstupit, .footer-nav-document {
-	display: block;
-	float: left;
-/*	width: 184px;*/
-	margin: 32px 8px 32px 8px;
+
+.footer-nav {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content:flex-start;
+	margin: 32px 20px;
 	border: none;
-/*	margin: 0;*/
- padding: 0;
- font-family: Gotham Pro, Regular;
- font-size: 13px;
-/* direction: ltr;*/
+ 	font-family: Gotham Pro, Regular;
+ 	font-size: 13px;
+	 flex:0 0 27%;
+
+	/* margin: 0 25px 0 15px;*/
 }	
-.footer-nav h5, .footer-nav-kontakt h5, .footer-nav-str h5, .footer-nav-part h5, .footer-nav-vstupit h5, .footer-nav-document h5 {
+.footer-nav h5 {
  color: #ffffff;
-	font-size: 35px;
- margin-bottom: 5px;
- padding-bottom: 5px;
+ font-size: 35px;
  border-bottom: thin solid #e1e1e1;
-/* border: none;*/
- margin: 0 25px 0 20px;
- padding: 0;
  display: block;
  font-weight: bold;
-/* direction: ltr;*/
 }
-.footer ul, .footer-kontakt ul, .footer-str ul, .footer-part ul, .footer-vstupit ul, .footer-document ul {
+.footer ul{
  border: none;
-/* margin: 0 25px 0 15px;*/
+
  padding: 0;
  display: block;
  list-style-type: disc;
@@ -266,7 +248,7 @@ border-radius: 70px;
  font-size: 20px;
 /* direction: ltr;*/
 }
-.footer li, .footer-kontakt li, .footer-str li, .footer-part li, .footer-vstupit li, .footer-document li {
+.footer li {
  list-style: none;
  border: none;
 /* margin: 0 25px 0 15px;*/
@@ -278,51 +260,29 @@ border-radius: 70px;
  font-size: 20px;
 /* direction: ltr;*/
 }
-.footer-nav ul li a, .footer-nav-kontakt ul li a, .footer-nav-str ul li a, .footer-nav-part ul li a, .footer-nav-vstupit ul li a, .footer-nav-document ul li a {
+.footer-nav ul li a {
 /*	text-decoration: underline;*/
 	list-style: none;
 	color: #ffffff;
 }
-.footer-kontakt {
-	background-color: #4a4a4a;
-	width: 1170px;
-	height: 355px;
-	position: absolute;
- margin-top: 730px;
- margin-left: 0px;
+
+.btn {
+	align-self: center; 
+	text-align: center;
+	flex-grow: 1;
+
 }
-.footer-part {
-		background-color: #4a4a4a;
-	width: 1170px;
-	height: 350px;
-	position: absolute;
- margin-top: 0px;
- margin-left: 0px;
+.post{
+	width: 100%;
 }
-.footer-str {
- background-color: #4a4a4a;
-	width: 1170px;
-	height: 355px;
-	position: absolute;
- margin-top: 350px;
- margin-left: 0px;
+.post p {
+	
+	text-align: right;
+	color: #F7F7F7;
+	font-size: 15px;
+	margin-right: 30px;
 }
-.footer-vstupit {
-	background-color: #4a4a4a;
-	width: 1170px;
-	height: 355px;
-	position: absolute;
- margin-top: 180px;
- margin-left: 0px;
-}
-.footer-document {
-		background-color: #4a4a4a;
-	width: 1170px;
-	height: 360px;
-	position: absolute;
- margin-top: 35px;
- margin-left: 0px;
-}
+
 iframe {
 	margin-top: 50px;
 }	
@@ -639,12 +599,7 @@ margin-right: 40px;
 	line-height: 27px;
 	font-size: 18px;
 }
-p.post {
-	text-align: left;
-	margin-top: 80px;
-/*	text-transform: uppercase;*/
-	font-size: 15px;
-}
+
 .programma {
 	font-family: Gotham Pro;
  margin-left: 15px;

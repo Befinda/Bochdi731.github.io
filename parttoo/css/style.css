@@ -144,7 +144,7 @@ button {
 	color: #4a4a4a;
 
 }
-.content h1 a:visited, .content h1 a:active{color: #4a4a4a;}
+.content h1 a:visited, .content h1 a:active{color: #423b3b;}
 
 .kprfcent{
 	float: left;
@@ -571,20 +571,20 @@ p.why, p.what {
 	font-family: Gotham Pro;
 	font-size: 25px;
 }
-.glavnaya {
-		margin-top: 30px;
+
+/*панелька*/
+.breadcrumb{
+	background-color: #4a4a4a;
+	color: white;
+	margin:20px 0;
+	padding: 3px 30px;
 }
-.glavnaya a {
-	margin-left: 20px;
-	margin-top: 100px;
-}
+.breadcrumb a:visited, .breadcrumb a:active{color: #ffffff;}
+/*конец панельки*/
 .pervaia {
 	margin-top: 30px
 }
-.glavnaya wbr { 
-	margin-left: 20px;
-	margin-top: 100px;
-}
+
 .ustav {
 		font-family: Gotham Pro;
 	font-weight: normal;

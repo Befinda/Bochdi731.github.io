@@ -56,6 +56,13 @@ ul {
 }
 hr{
 	width: 100%;
+	height: 6px;
+	border-color: rgb(252, 249, 249);
+ 	background-color: rgb(251, 7, 18);
+}
+.content hr {
+	/*margin-top: 80px;*/
+
 }
 
 .logon li {
@@ -68,12 +75,7 @@ hr{
 	flex-basis: 10%;
 	flex-shrink: 0;
 }
-hr {
-	height: 6px;
-	border-color: rgb(252, 249, 249);
-	border-style: solid 5px;
- 	background-color: rgb(251, 7, 18);
-}
+
 button {
 	border-style: solid;
 	border-radius: 35px;
@@ -182,10 +184,7 @@ h1.bloch {
 	float: left;
 	margin: 5px 5px 5px 3px;
 }
-.content hr {
-	margin-top: 80px;
-	color: #d80b0b;
-}
+
 address {
 	text-align: right;
 }
@@ -304,7 +303,7 @@ iframe {
 height: 400px;
 }
 .page-content {
-	display: block;
+	
 	margin: 16px 16px 20px 16px;
 	width: 1100px;
 	border-spacing: 0;
@@ -320,31 +319,28 @@ h1.title  {
  /*line-height: 21px;*/
  margin-bottom: 10px;
 }
-h1 {
-	display: block;
- }
+
 .content-text {
- display: block;
+
  font-size: 20px;
 }
-.content-text p {
-	display: block;
-	color: black;
- font-family: Gotham Pro;
- margin-bottom: 25px;
- line-height: 20px;
-}
-p.priziv {
-	text-align: center;
-}
-p.date {
-	margin: 25px 0 25px 0;
-}
+
+
 .content-text p {
 	font-family: Gotham Pro;
 	font-weight: normal;
 	line-height: 30px;
 	color: #010101;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+p.priziv {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 600;
+}
+p.date {
+	margin: 25px 0 25px 0;
 }
 .news-text img {
 	margin: 20px 20px 20px 75px;

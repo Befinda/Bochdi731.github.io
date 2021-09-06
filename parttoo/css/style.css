@@ -57,7 +57,7 @@ ul {
 hr{
 	width: 100%;
 	height: 6px;
-	border-color: rgb(252, 249, 249);
+	
  	background-color: rgb(251, 7, 18);
 }
 
@@ -163,7 +163,7 @@ h1.bloch {
 }
 
 
-.content h2, h3, h4 {
+.content h2 {
 	margin-top: 20px;
 	font-size: 25px;
 	font-family: "Gotham Pro";
@@ -373,12 +373,14 @@ img.blago {
 	/*font-size: 30px;*/
 	text-align: center;
 }
-.mmo h2{
+h2.poryd{
 color: #000;
 margin: 15px 0 15px;
 text-transform: uppercase;
 }
-
+h3.poryd{
+text-align: center;
+}
 .mmo p{
 	font-size: 30px;
 }
@@ -413,44 +415,42 @@ column-gap: 0px; /*отступ между колонками*/
 	color: #010101;
 	line-height: 35px;
 } */
-.structura hr {
-	margin-top: 500px;
-}
+
 .otdeli {
-	margin-left: 15px;
-	margin-right: 15px;
+	margin: 5px 15px 30px;
 }
 .otdeli p {
 	margin-top: 15px;
-	text-align: center;
+	text-align: left;
 	font-family: Gotham Pro;
-	font-size: 20px;
+	font-size: 22px;
 	text-transform: uppercase;
 }
-.pervichki {
-text-align: left;
-}
-.pervichki p {
-text-align: left;
-	float: left;
-}
-hr.per {
-	margin-top: 200px;
-}
-.nardep, .raion {
+
+/*.nardep, .raion {
 	margin-left: 15px;
 	margin-right: 15px;
 }
-.dep p {
-	text-align: center;
-	margin-top: 15px;
-	font-family: Gotham Pro;
-	font-size: 20px;
-}
+
 .nardep p {
 	margin-top: 10px;
 	font-family: Gotham Pro;
 	font-size: 25px;
+}*/
+.item_dep{
+	padding: 10px;
+	border-top: #4a4a4a solid 3px;
+	border-bottom: #4a4a4a solid 3px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+}
+.item_dep div{
+	margin-left: 170px;
+}
+.item_dep img{
+	width: 150px;
+	display: block;
+	object-fit: cover;
 }
 .details  {
 	display: block;
@@ -469,10 +469,11 @@ border-radius: 5px;
 -webkit-border-radius: 5px;
 }
 
-p.bocharov, p.galkina, p.provorov, p.pushkova, p.platonov, p.bochkov {
+h4 {
 	font-family: Gotham Pro;
 	font-weight: bold;
 	color: #d80b0b;
+	font-size: 25px;
 }
 hr.str {
 	margin-top: 45px;

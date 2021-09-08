@@ -543,24 +543,20 @@ p.why, p.what {
 	margin-top: 30px
 }
 
-.ustav {
+.ustav{
 		font-family: Gotham Pro;
-	font-weight: normal;
 margin-top: 30px;
 text-align: right;
-margin-right: 40px;
+margin-right: 20px;
 }
-.izm {
-	margin-top: 100px;
-}
+
 .osnova {
-	margin-left: 15px;
-	margin-right: 15px;
-	margin-top: 25px;
+	margin: 25px 15px 0;
 	font-family: Gotham Pro;
 	font-weight: normal;
 	line-height: 27px;
 	font-size: 18px;
+	text-align: justify;
 }
 
 .programma {
@@ -568,12 +564,9 @@ margin-right: 40px;
  margin-left: 15px;
 	margin-right: 15px;
 	margin-top: 35px;
+	text-align: justify;
 }
-h1.zag {
-	font-family: Gotham Pro;
-	color: #d80b0b;
-	margin-bottom: 15px;
-}
+
 .text img {
 	margin-top: 0;
 	float: right;
@@ -585,7 +578,7 @@ h1.zag {
 	font-size: 18px;
 }
 .punkt {
-	margin-top: 50px;
+	margin-top: 60px;
 }
 p.punkt {
 	text-align: center;

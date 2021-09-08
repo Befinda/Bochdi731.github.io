@@ -60,7 +60,9 @@ hr{
 	
  	background-color: rgb(251, 7, 18);
 }
-
+.content hr{
+	margin: 10px 0;
+}
 
 .logon li {
 	list-style: none;
@@ -380,11 +382,14 @@ text-transform: uppercase;
 }
 h3.poryd{
 text-align: center;
+margin: 10px 0;
 }
 .mmo p{
 	font-size: 30px;
 }
-
+.mmo h3{
+	font-size: 30px;
+}
 
 .people {
 	float: left;
@@ -443,6 +448,7 @@ column-gap: 0px; /*отступ между колонками*/
 	border-bottom: #4a4a4a solid 3px;
 	border-radius: 10px;
 	margin-bottom: 15px;
+	overflow: hidden;
 }
 .item_dep div{
 	margin-left: 170px;
@@ -475,22 +481,14 @@ h4 {
 	color: #d80b0b;
 	font-size: 25px;
 }
-hr.str {
-	margin-top: 45px;
-}
+
 .raion p {
 	margin-top: 10px;
 text-align: left;
 font-family: Gotham Pro;
-font-size: 20px;
+font-size: 20px;}
 
-}
-hr.bocharov, hr.pushkova, hr.platonov, hr.galkina, hr.provorov {
-	margin-top: 10px;
-	border-color: rgb(252, 249, 249);
-	border-style: solid 10px;
- background-color: #4a4a4a;
-}
+
 .vstupit {
 	margin-left: 15px;
 	margin-right: 15px;
